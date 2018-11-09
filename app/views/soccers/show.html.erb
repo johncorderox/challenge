@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @soccer.name %>
+</p>
+
+<p>
+  <strong>For:</strong>
+  <%= @soccer.for %>
+</p>
+
+<p>
+  <strong>Against:</strong>
+  <%= @soccer.against %>
+</p>
+
+<%= link_to 'Edit', edit_soccer_path(@soccer) %> |
+<%= link_to 'Back', soccers_path %>

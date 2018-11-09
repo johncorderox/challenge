@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Day:</strong>
+  <%= @datum.day %>
+</p>
+
+<p>
+  <strong>Max:</strong>
+  <%= @datum.max %>
+</p>
+
+<p>
+  <strong>Min:</strong>
+  <%= @datum.min %>
+</p>
+
+<%= link_to 'Edit', edit_datum_path(@datum) %> |
+<%= link_to 'Back', data_path %>
